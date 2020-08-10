@@ -40,4 +40,5 @@ def get_meteorite_dists():
 def sort_key(e):
     return e['distance']
 
-find_nearest_meteors()
+if __name__ == '__main__':
+    find_nearest_meteors()
