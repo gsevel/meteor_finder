@@ -5,9 +5,9 @@ A simple demo program to find nearest meteorite landing sites using NASA API
 
 This project requires Python 3, the haversine and the requests package.
 
-First install pipenv, then:
+First install pipenv, then run script.
 
 '''
 pipenv install
-pipenv meteorite_finder.py'
+pipenv run python meteorites/meteorite_finder.py
 '''
